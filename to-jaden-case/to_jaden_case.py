@@ -4,8 +4,6 @@ def to_jaden_case(string: str) -> str:
     pos = -1
     for letter in arr:
         pos += 1
-        print(pos)
-        print((len(arr)))
         if (pos == len(arr) - 1): newStr += letter.capitalize()
         else: newStr += letter.capitalize() + ' '
     return newStr
