@@ -1,0 +1,5 @@
+{
+  "displayName": "typescript",
+  "testMatch": ["**/**test.ts"],
+  "moduleFileExtensions": ["ts", "js"]
+}

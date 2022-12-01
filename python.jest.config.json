@@ -1,0 +1,6 @@
+{
+  "displayName": "python",
+  "runner": "jest-python",
+  "testMatch": ["**/test_*.py"],
+  "moduleFileExtensions": ["py"]
+}
