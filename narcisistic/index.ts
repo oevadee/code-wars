@@ -1,4 +1,4 @@
-export const narcissistic = (value: number): boolean => {
+export const narcissisticTest = (value: number): boolean => {
   const length = value.toString().length;
   const valueConvertedToNarcisistic = value
     .toString()
@@ -9,4 +9,11 @@ export const narcissistic = (value: number): boolean => {
   else return false;
 };
 
-console.log(narcissistic(153));
+export const narcissistic = (value: number): boolean =>
+  +value
+    .toString()
+    .split("")
+    .map((num) => Math.pow(+num, value.toString().length))
+    .reduce((acc, curr) => acc + curr) === value
+    ? true
+    : false;
