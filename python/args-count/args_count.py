@@ -1,5 +1,8 @@
-def args_count(*x):
-    argsArr = []
-    for arg in x:
-        argsArr.append(arg)
-    return len(argsArr)
+def args_count(**kwargs):
+    print(kwargs)
+    # sig = signature(args_count)
+    # params = sig.parameters
+    # return len(params)
+
+
+args_count(32, a1=12)

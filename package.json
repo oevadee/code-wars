@@ -18,7 +18,7 @@
     "start": "ts-node <file>",
     "start:dev": "nodemon <file>",
     "test": "jest",
-    "start:python": "python3 <file>"
+    "start:python": "python3 python/find-next-square/find_next_square.py"
   },
   "keywords": [],
   "author": "oevadee",
